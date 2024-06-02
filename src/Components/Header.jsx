@@ -1,6 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
-import '../assets/CSS/Header.css'
+import './Header.css'
 export default function Header() {
     return (
         <div className="main">
@@ -29,28 +28,3 @@ export default function Header() {
     )
 }
 
-// <header className='navbar'>
-//             <div className="icon">
-//                 <h2 className="logo">LOGO</h2>
-//             </div>
-
-//             <div className="Menu">
-//                 <ul>
-//                     <li>HOME</li>
-//                     <li>CONTACT</li>
-//                     <li>ABOUT US</li>
-//                     <li>HELP</li>
-//                     <li>
-//                         {!localStorage.getItem('token') ? (
-//                             <ul>
-//                                 <li>LOGIN</li>
-//                                 <li>REGISTER</li>
-//                             </ul>
-//                         ) : (
-//                             <button className='logout-btn' onClick={handleLogout}>LOGOUT</button>
-//                         )}
-//                     </li>
-//                 </ul>
-//             </div>
-
-//         </header>
